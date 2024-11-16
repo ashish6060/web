@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Form</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .login-container {
+            width: 300px;
+            margin: 100px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 2px 2px 12px #aaa;
+        }
+        .input-field {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+        }
+        .submit-btn {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <form action="a.php" method="GET">
+            <h2>Login</h2>
+            <input type="number" name="id" placeholder="Username" class="input-field" required>
+            <input type="text" name="name" placeholder="Password" class="input-field" required>
+            <button type="submit" class="submit-btn">Login</button>
+        </form>
+    </div>
+</body>
+</html>
